@@ -39,6 +39,7 @@ public class MainManager : MonoBehaviour
                 brick.onDestroyed.AddListener(AddPoint);
             }
         }
+
         BestScoreText.text = $"Best Score:{UserManager.Instance.champName}:{UserManager.Instance.high_score}";
     }
 
